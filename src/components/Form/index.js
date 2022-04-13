@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
+import './style.css'
 
 function Form({startSearch}) {
   const [name, setName] = useState("");
@@ -20,13 +21,15 @@ function Form({startSearch}) {
   return (
     <>
       <form onSubmit={handleSubmit}>
-        <input
+        <div className="input">
+        <input className="input" id="inp"
           type="text"
           placeholder="Enter github username"
           value={nameInput}
           onChange={updateInput}
         />
-        <input type="submit" value="search" />
+        <input id = "btn" type="submit" value="search" />
+        </div>
       </form>
     </>
   );

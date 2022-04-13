@@ -1,9 +1,14 @@
 import React from "react";
+import '../style.css'
+import { FcBinoculars } from 'react-icons/fc';
+
+
+
 const Header = () => {
     return(
         <header>
             <div id="logo">
-                <h1><img src='./images/Octocat.png' />GitTracker</h1>
+            <h1><span className="lsvg"><FcBinoculars/></span> GitTracker</h1>
             </div>
         </header>
     )

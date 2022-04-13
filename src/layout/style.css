@@ -1,18 +1,30 @@
-header, footer {
+header {
     margin-bottom: 10px;
     padding: 20px;
+    background-color: lightslategrey;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
   }
   
   #logo {
     font-size: 0.8em;
     display: inline-block;
-    width: 24;
-    height: 24;
+    width: 30;
+    height: 30;
   }
-  footer{
-    position: absolute;
+  #lsvg{
+    width: 100px; 
+    height: 100px; 
+    right: 20;}
+      
+    footer{
+    margin-bottom: 10px;
+    padding: 20px;
     bottom: 0;
+    background-color: lightslategrey;
     width: 100vw;
+    position: fixed;
+    
     
 }
 ul{

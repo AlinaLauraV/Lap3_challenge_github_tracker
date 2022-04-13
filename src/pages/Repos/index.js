@@ -20,8 +20,9 @@ function Repos() {
 
   return(
     <>
+      
       <Form startSearch={query}/> 
-      {result[0].user ? <h2>Owner:  {result[0].user}</h2> : <h2>Enter username</h2>}
+      {result[0].user ? <h2>Owner:  {result[0].user}</h2> : <h2>Repos</h2>}
       <div>
         
         {result[0].repo &&
@@ -31,6 +32,7 @@ function Repos() {
         
         } 
       </div>
+      
     </>
   )   
 }
