@@ -1,1 +1,1 @@
-export { default as Repos } from "./Repos";
+export { default as Repos } from './repos'

@@ -3,7 +3,7 @@ const init = {
     result: [""] 
 }
 
-const Reducer = (state=init, action) => {
+const searchReducer = (state=init, action) => {
     switch (action.type) {
         case 'LOAD_REPOS':
             return({
@@ -17,4 +17,4 @@ const Reducer = (state=init, action) => {
     }
 }
 
-export default Reducer; 
+export default searchReducer; 
